@@ -1,0 +1,31 @@
+---
+import Card from './Card.astro';
+
+const data = [
+    {
+        title: "Innovative Solar Solutions",
+        description: "Explore our cutting-edge solar projects that are shaping the future of renewable energy.",
+        imageUrl: "/img/Card1.jpg",
+        link: "#"
+    },
+    {
+        title: "Wind Energy Projects",
+        description: "Discover our wind energy initiatives that harness the power of nature for a sustainable world.",
+        imageUrl: "/img/Card2.jpg",
+        link: "#"
+    },
+    {
+        title: "Hydropower Initiatives",
+        description: "Our hydropower projects provide clean and efficient energy to communities worldwide.",
+        imageUrl: "/img/Card3.jpg",
+        link: "#"
+    },
+    
+    // Agrega más objetos de datos aquí
+];
+---
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center" >
+    {data.map((item) => (
+        <Card title={item.title} description={item.description} imageUrl={item.imageUrl} link={item.link} />
+    ))}
+</div>
