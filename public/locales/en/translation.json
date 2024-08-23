@@ -22,5 +22,12 @@
       "3": "Hydropower Initiatives",
       "Desc3": "Our hydropower projects provide clean and efficient energy to communities worldwide.",
       "But": "Read more"
+    },
+    "About": {
+      "TItle": "About",
+      "SubTitle": "Who We Are",
+      "P1": "At EnergyResearch, we are pioneers in the energy sector, driven by a vision to make clean, efficient energy accessible to all. Our journey began with a passion for innovation and sustainability, guiding everything we do.",
+      "P2": "We lead the energy revolution, delivering solutions that surpass industry standards. Our team of experts brings deep knowledge, ensuring our projects are impactful and lasting.",
+      "P3": "Collaboration is key. We work closely with clients to develop energy solutions that benefit both people and the planet, upholding excellence and integrity in all we do."
     }
 }

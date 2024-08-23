@@ -1,5 +1,5 @@
 ---
-
+import i18next, { t } from "i18next";
 ---
 
 <section class="bg-white dark:bg-gray-900 py-12 px-4 sm:px-6 lg:px-8" id="ABOUT" >
@@ -11,18 +11,18 @@
             </div>
             <!-- Contenido -->
             <div class="w-full lg:w-1/2 text-center lg:text-left">
-                <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">About Us</h2>
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Who We Are</h3>
+                <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">{t("About.Title")}</h2>
+                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">{t("About.SubTitle")}</h3>
                 <div>
                     <p class="text-lg text-gray-700 dark:text-gray-300 mb-4" data-aos="fade-up" data-aos-offset="100"
                     data-aos-easing="ease-in-sine">
-                        At EnergyResearch, we are pioneers in the energy sector, driven by a vision to make clean, efficient energy accessible to all. Our journey began with a passion for innovation and sustainability, guiding everything we do.
+                    {t("About.P1")}
                     </p>
                     <p class="text-lg text-gray-700 dark:text-gray-300 mb-4" data-aos="fade-up" data-aos-offset="200">
-                        We lead the energy revolution, delivering solutions that surpass industry standards. Our team of experts brings deep knowledge, ensuring our projects are impactful and lasting.
+                        {t("About.P2")}
                     </p>
                     <p class="text-lg text-gray-700 dark:text-gray-300" data-aos="fade-up" data-aos-offset="300">
-                        Collaboration is key. We work closely with clients to develop energy solutions that benefit both people and the planet, upholding excellence and integrity in all we do.
+                        {t("About.P3")}
                     </p>
                 </div>
             </div>
