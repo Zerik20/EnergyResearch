@@ -1,3 +1,7 @@
+---
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+---
 <div id="animation-carousel" class="relative w-full h-[92vh]" data-carousel="static">
     <!-- Carousel wrapper -->
     <div class="relative h-full overflow-hidden">
@@ -6,9 +10,9 @@
             <img src="/img/Slider1.jpg" class="absolute block w-full h-full object-cover top-0 left-0" alt="...">
             <!-- Overlay with title and subtitle -->
             <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white z-10 p-4">
-                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-center">Powering the Future</h1>
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-center">{t("Slider.1")}</h1>
                 <br/>
-                <p class="text-lg sm:text-xl md:text-2xl text-center">Innovative solutions for sustainable energy</p>
+                <p class="text-lg sm:text-xl md:text-2xl text-center">{t("Slider.Sub1")}</p>
             </div>
         </div>
         <!-- Item 2 -->
@@ -16,9 +20,9 @@
             <img src="/img/Slider2.jpg" class="absolute block w-full h-full object-cover top-0 left-0" alt="...">
             <!-- Overlay with title and subtitle -->
             <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white z-10 p-4">
-                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-center">Harnessing Clean Energy</h1>
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-center">{t("Slider.2")}</h1>
                 <br/>
-                <p class="text-lg sm:text-xl md:text-2xl text-center">Driving the world towards a greener tomorrow</p>
+                <p class="text-lg sm:text-xl md:text-2xl text-center">{t("Slider.Sub2")}</p>
             </div>
         </div>
         <!-- Item 3 -->
@@ -26,9 +30,9 @@
             <img src="/img/Slider3.jpg" class="absolute block w-full h-full object-cover top-0 left-0" alt="...">
             <!-- Overlay with title and subtitle -->
             <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white z-10 p-4">
-                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-center">Your Partner in Energy Transformation</h1>
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-center">{t("Slider.3")}</h1>
                 <br/>
-                <p class="text-lg sm:text-xl md:text-2xl text-center">Expertise in renewable energy and efficiency</p>
+                <p class="text-lg sm:text-xl md:text-2xl text-center">{t("Slider.Sub3")}</p>
             </div>
         </div>
     </div>

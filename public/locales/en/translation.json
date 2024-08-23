@@ -1,6 +1,26 @@
 {
     "Nav": {
       "Home": "Home",
-      "About": "About"
+      "About": "About",
+      "Services": "Services",
+      "Video": "Video",
+      "Contact": "Contact"
+    },
+    "Slider": {
+      "1": "Powering the Future",
+      "Sub1": "Innovative solutions for sustainable energy",
+      "2": "Harnessing Clean Energy",
+      "Sub2": "Driving the world towards a greener tomorrow",
+      "3": "Your Partner in Energy Transformation",
+      "Sub3": "Expertise in renewable energy and efficiency"
+    },
+    "Cards": {
+      "1": "Innovative Solar Solutions",
+      "Des1": "Explore our cutting-edge solar projects that are shaping the future of renewable energy.",
+      "2": "Wind Energy Projects",
+      "Des2": "Discover our wind energy initiatives that harness the power of nature for a sustainable world.",
+      "3": "Hydropower Initiatives",
+      "Desc3": "Our hydropower projects provide clean and efficient energy to communities worldwide.",
+      "But": "Read more"
     }
 }

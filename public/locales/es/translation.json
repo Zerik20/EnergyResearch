@@ -1,6 +1,26 @@
 {
     "Nav": {
       "Home": "Inicio",
-      "About": "Nosotros"
-    }
+      "About": "Nosotros",
+      "Services": "Servicos",
+      "Video": "Video",
+      "Contact": "Contacto"
+    },
+    "Slider": {
+      "1": "Impulsando el Futuro",
+      "Sub1": "Soluciones innovadoras para energía sostenible",
+      "2": "Aprovechando la Energía Limpia",
+      "Sub2": "Conduciendo al mundo hacia un mañana más verde",
+      "3": "Tu Socio en la Transformación Energética",
+      "Sub3": "Experiencia en energía renovable y eficiencia"
+    },
+    "Cards": {
+    "1": "Soluciones Solares Innovadoras",
+    "Des1": "Explora nuestros proyectos solares de vanguardia que están dando forma al futuro de la energía renovable.",
+    "2": "Proyectos de Energía Eólica",
+    "Des2": "Descubre nuestras iniciativas de energía eólica que aprovechan el poder de la naturaleza para un mundo sostenible.",
+    "3": "Iniciativas Hidroeléctricas",
+    "Desc3": "Nuestros proyectos hidroeléctricos proporcionan energía limpia y eficiente a comunidades en todo el mundo.",
+    "But": "Leer más"
+  }
 }
